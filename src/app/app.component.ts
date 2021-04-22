@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'calculadora';
+  resultado=0;
+  a=0;
+  b=0;
+  sumar(){
+    this.resultado= this.a + this.b;
+  }
 }
